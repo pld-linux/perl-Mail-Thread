@@ -11,7 +11,7 @@ Name:		perl-Mail-Thread
 Version:	2.41
 Release:	1
 # same as perl
-License:	GPL/Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	15172dd8bea2c885484032c780274460
