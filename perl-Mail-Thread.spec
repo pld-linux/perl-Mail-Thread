@@ -1,6 +1,6 @@
 #
 # Conditional build:
-# _without_tests - do not perform "make test"
+%bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Mail
@@ -8,16 +8,16 @@
 Summary:	Mail::Thread - Perl implementation of JWZ's mail threading algorithm
 Summary(pl):	Mail::Thread - perlowa implementacja algorytmu w±tkowania poczty JWZ
 Name:		perl-Mail-Thread
-Version:	2.3
+Version:	2.41
 Release:	1
 # same as perl
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	dff4cc27c85f57186b12bf28a3491cad
+# Source0-md5:	15172dd8bea2c885484032c780274460
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{!?_without_tests:1}0
+%if %{with tests}
 BuildRequires:	perl(Mail::Internet)
 BuildRequires:	perl-Test-Simple
 %endif
@@ -44,7 +44,7 @@ algorytmu s± przypadkowe.
 	INSTALLDIRS=vendor
 %{__make}
 
-%{!?_without_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
