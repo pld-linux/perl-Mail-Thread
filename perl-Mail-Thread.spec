@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Mail
-%define	pnam	Thread
+%define		pdir	Mail
+%define		pnam	Thread
 Summary:	Mail::Thread - Perl implementation of JWZ's mail threading algorithm
 Summary(pl):	Mail::Thread - perlowa implementacja algorytmu w±tkowania poczty JWZ
 Name:		perl-Mail-Thread
