@@ -31,7 +31,7 @@ http://www.jwz.org/doc/threading.html. Any deviations from the
 algorithm are accidental.
 
 %description -l pl
-Ten modu³ jest implementacj± czego¶ wmiarê bliskiego do algorytmu
+Ten modu³ jest implementacj± czego¶ w miarê bliskiego do algorytmu
 w±tkowania poczty autorstwa Jamie Zawinskiego, opisanego w
 http://www.jwz.org/doc/threading.html. Wszelkie odchylenia od
 algorytmu s± przypadkowe.
