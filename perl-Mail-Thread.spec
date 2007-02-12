@@ -6,7 +6,7 @@
 %define		pdir	Mail
 %define		pnam	Thread
 Summary:	Mail::Thread - Perl implementation of JWZ's mail threading algorithm
-Summary(pl):	Mail::Thread - perlowa implementacja algorytmu w±tkowania poczty JWZ
+Summary(pl.UTF-8):   Mail::Thread - perlowa implementacja algorytmu wÄ…tkowania poczty JWZ
 Name:		perl-Mail-Thread
 Version:	2.5
 Release:	2
@@ -32,11 +32,11 @@ mail threading algorithm, as described by
 http://www.jwz.org/doc/threading.html. Any deviations from the
 algorithm are accidental.
 
-%description -l pl
-Ten modu³ jest implementacj± czego¶ w miarê bliskiego do algorytmu
-w±tkowania poczty autorstwa Jamie Zawinskiego, opisanego w
+%description -l pl.UTF-8
+Ten moduÅ‚ jest implementacjÄ… czegoÅ› w miarÄ™ bliskiego do algorytmu
+wÄ…tkowania poczty autorstwa Jamie Zawinskiego, opisanego w
 http://www.jwz.org/doc/threading.html. Wszelkie odchylenia od
-algorytmu s± przypadkowe.
+algorytmu sÄ… przypadkowe.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
