@@ -8,14 +8,14 @@
 Summary:	Mail::Thread - Perl implementation of JWZ's mail threading algorithm
 Summary(pl.UTF-8):	Mail::Thread - perlowa implementacja algorytmu wątkowania poczty JWZ
 Name:		perl-Mail-Thread
-Version:	2.5
-Release:	3
+Version:	2.55
+Release:	1
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	37f291b44ea2055ba59228ee95402c39
+# Source0-md5:	3b30d3087e30462cb6391797ee885f0e
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
