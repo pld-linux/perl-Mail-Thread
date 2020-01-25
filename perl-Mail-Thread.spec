@@ -4,7 +4,6 @@
 
 %define		pdir	Mail
 %define		pnam	Thread
-%include	/usr/lib/rpm/macros.perl
 Summary:	Mail::Thread - Perl implementation of JWZ's mail threading algorithm
 Summary(pl.UTF-8):	Mail::Thread - perlowa implementacja algorytmu wątkowania poczty JWZ
 Name:		perl-Mail-Thread
